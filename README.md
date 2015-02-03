@@ -1,7 +1,7 @@
 # WebImageShow
 简介：在UIwebView使用JS获取网页中的图片，然后使用UIKit框架显示。
 主要代码：
-···objective-c
+```Objective-c
 #pragma mark- TapGestureRecognizer
 /**
  *  3.允许多个手势识别器共同识别
@@ -29,6 +29,6 @@
         [self showImageURL:urlToSave point:pt];
     }
 }
-···
+```
 效果图：
-![](https://github.com/CoderJee/WebImageShow/UIWebView_CoderJee.gif)
+![](https://github.com/CoderJee/WebImageShow/blob/master/UIWebView_CoderJee.gif)
